@@ -119,8 +119,8 @@ body {
   background-image: radial-gradient(center, circle cover, #dbdede, #bfbdbe);
 }
 
-.container {
-  margin: 80px auto;
+.container_out {
+  margin: auto;
   width: 640px;
   text-align: center;
 }
