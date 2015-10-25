@@ -2,92 +2,109 @@
 <!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]> <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]> <html class="lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mini Calendar / Date Picker</title>
+  <title>Magnet</title>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.css">
+
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/tinder.css">
-  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css">
+
   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-  <script src="https://rawgit.com/peachananr/onepage-scroll/master/jquery.onepage-scroll.js"></script>
-  <script type="text/javascript" src="js/tinder.js"></script>
-  <script src="http://maps.googleapis.com/maps/api/js"></script>
   <script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.js"></script>
+  <script src="http://maps.googleapis.com/maps/api/js"></script>
+
+  <script type="text/javascript" src="js/tinder.js"></script>
+  <script type="text/javascript" src="js/fullpage.js"></script>
   <script type="text/javascript" src="js/map.js"></script>
   <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
+
 <body>
-  <div class="main">
-    <section>
-       <div id="container">
-      <div class="buddy" style="display: block;"><div class="avatar"  style="display: block; background-image: url(http://1.bp.blogspot.com/_qEbjiFbQWGM/TCBVlN3mkYI/AAAAAAAADCM/7CjYqUHwbgY/s1600/workshop_modell_0126.jpg)"></div></div>
-      <div class="buddy"><div class="avatar" style="display: block; background-image: url(http://static.stylemagazin.hu/medias/29280/Nem-ehezik-a-Women-of-the-Year-legjobb-modell-dijara-eselyes-szepseg_32fc7c86954a8847610499a0fc7261e2.jpg)"></div></div>  
-      <div class="buddy"><div class="avatar" style="display: block; background-image: url(http://w1nd.cc/promo/347.jpg)"></div></div>  
-      <div class="buddy"><div class="avatar" style="display: block; background-image: url(http://static.168ora.hu/db/09/AF/orban-d0001C9AFa1ba9618c180.jpg)"></div></div>
+  <div id="fullpage">
+    <div class="section">
+      <div id="container">
+        <div class="buddy" style="display: block;">
+          <div class="avatar" style="display: block; background-image: url(http://1.bp.blogspot.com/_qEbjiFbQWGM/TCBVlN3mkYI/AAAAAAAADCM/7CjYqUHwbgY/s1600/workshop_modell_0126.jpg)"></div>
+        </div>
+        <div class="buddy">
+          <div class="avatar" style="display: block; background-image: url(http://static.stylemagazin.hu/medias/29280/Nem-ehezik-a-Women-of-the-Year-legjobb-modell-dijara-eselyes-szepseg_32fc7c86954a8847610499a0fc7261e2.jpg)"></div>
+        </div>
+        <div class="buddy">
+          <div class="avatar" style="display: block; background-image: url(http://w1nd.cc/promo/347.jpg)"></div>
+        </div>
+        <div class="buddy">
+          <div class="avatar" style="display: block; background-image: url(http://static.168ora.hu/db/09/AF/orban-d0001C9AFa1ba9618c180.jpg)"></div>
+        </div>
       </div>
-    </section>
-    <section>
-    <div class="cal">
-      <table class="cal-table">
-        <caption class="cal-caption">
-          <a href="index.html" class="prev">&laquo;</a>
-          <a href="index.html" class="next">&raquo;</a>
-          May 2012
-        </caption>
-        <tbody class="cal-body">
-          <tr>
-            <td class="cal-off"><a href="index.html">30</a></td>
-            <td><a href="index.html">1</a></td>
-            <td><a href="index.html">2</a></td>
-            <td class="cal-today"><a href="index.html">3</a></td>
-            <td><a href="index.html">4</a></td>
-            <td><a href="index.html">5</a></td>
-            <td><a href="index.html">6</a></td>
-          </tr>
-          <tr>
-            <td><a href="index.html">7</a></td>
-            <td class="cal-selected"><a href="index.html">8</a></td>
-            <td><a href="index.html">9</a></td>
-            <td><a href="index.html">10</a></td>
-            <td><a href="index.html">11</a></td>
-            <td class="cal-check"><a href="index.html">12</a></td>
-            <td><a href="index.html">13</a></td>
-          </tr>
-          <tr>
-            <td><a href="index.html">14</a></td>
-            <td><a href="index.html">15</a></td>
-            <td><a href="index.html">16</a></td>
-            <td class="cal-check"><a href="index.html">17</a></td>
-            <td><a href="index.html">18</a></td>
-            <td><a href="index.html">19</a></td>
-            <td><a href="index.html">20</a></td>
-          </tr>
-          <tr>
-            <td><a href="index.html">21</a></td>
-            <td><a href="index.html">22</a></td>
-            <td><a href="index.html">23</a></td>
-            <td><a href="index.html">24</a></td>
-            <td><a href="index.html">25</a></td>
-            <td><a href="index.html">26</a></td>
-            <td><a href="index.html">27</a></td>
-          </tr>
-          <tr>
-            <td><a href="index.html">28</a></td>
-            <td><a href="index.html">29</a></td>
-            <td><a href="index.html">30</a></td>
-            <td><a href="index.html">31</a></td>
-            <td class="cal-off"><a href="index.html">1</a></td>
-            <td class="cal-off"><a href="index.html">2</a></td>
-            <td class="cal-off"><a href="index.html">3</a></td>
-          </tr>
-        </tbody>
-      </table>
     </div>
-    <section>
-    <section>
+    <div class="section">
+      <div class="cal">
+        <table class="cal-table">
+          <caption class="cal-caption">
+            <a href="index.html" class="prev">&laquo;</a>
+            <a href="index.html" class="next">&raquo;</a> May 2012
+          </caption>
+          <tbody class="cal-body">
+            <tr>
+              <td class="cal-off"><a href="index.html">30</a></td>
+              <td><a href="index.html">1</a></td>
+              <td><a href="index.html">2</a></td>
+              <td class="cal-today"><a href="index.html">3</a></td>
+              <td><a href="index.html">4</a></td>
+              <td><a href="index.html">5</a></td>
+              <td><a href="index.html">6</a></td>
+            </tr>
+            <tr>
+              <td><a href="index.html">7</a></td>
+              <td class="cal-selected"><a href="index.html">8</a></td>
+              <td><a href="index.html">9</a></td>
+              <td><a href="index.html">10</a></td>
+              <td><a href="index.html">11</a></td>
+              <td class="cal-check"><a href="index.html">12</a></td>
+              <td><a href="index.html">13</a></td>
+            </tr>
+            <tr>
+              <td><a href="index.html">14</a></td>
+              <td><a href="index.html">15</a></td>
+              <td><a href="index.html">16</a></td>
+              <td class="cal-check"><a href="index.html">17</a></td>
+              <td><a href="index.html">18</a></td>
+              <td><a href="index.html">19</a></td>
+              <td><a href="index.html">20</a></td>
+            </tr>
+            <tr>
+              <td><a href="index.html">21</a></td>
+              <td><a href="index.html">22</a></td>
+              <td><a href="index.html">23</a></td>
+              <td><a href="index.html">24</a></td>
+              <td><a href="index.html">25</a></td>
+              <td><a href="index.html">26</a></td>
+              <td><a href="index.html">27</a></td>
+            </tr>
+            <tr>
+              <td><a href="index.html">28</a></td>
+              <td><a href="index.html">29</a></td>
+              <td><a href="index.html">30</a></td>
+              <td><a href="index.html">31</a></td>
+              <td class="cal-off"><a href="index.html">1</a></td>
+              <td class="cal-off"><a href="index.html">2</a></td>
+              <td class="cal-off"><a href="index.html">3</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="section">
       <div id="googleMap" class="container" style="display: block;margin-left: auto; margin-right: auto;width:500px;height:380px;"></div>
-    </section>
+    </div>
   </div>
 </body>
+
 </html>
